@@ -21,6 +21,25 @@ fun main(){
     val parallellipiped=Parallellipiped(3,4,5)
     parallellipiped.Xajmi()
     parallellipiped.Yuzi()
+    val doira=Doira(7)
+    doira.uzunli()
+    doira.Yuzasi()
+    val oarifmetik=Oarifmetik(10,16)
+    oarifmetik.Arifmetik()
+    val integer1=Integer1(3000,1000)
+    integer1.sm()
+    integer1.t()
+    val case=Case(5)
+    case.hf()
 
+
+    val dataL=DataL(5,"Android")
+    val dataL2=DataL("Oliy",21)
+    val dataL3=DataL(750)
+    val dataL4=DataL(50,"Zor")
+    dataL.data()
+    dataL2.data2()
+    dataL3.data3()
+    dataL4.data4()
 
 }
